@@ -91,10 +91,10 @@
 <body>
   <div class="signup-container">
     <h1>Sign Up</h1>
-    <form class="signup-form">
+    <form class="signup-form" action ="signupprocess" method="post">
       <div class="form-group">
-        <label for="username">Username</label>
-        <input type="text" id="username" name="username" placeholder="Enter your username" required>
+        <label for="name">name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your username" required>
       </div>
       <div class="form-group">
         <label for="email">Email</label>
